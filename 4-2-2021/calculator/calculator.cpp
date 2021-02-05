@@ -18,7 +18,7 @@ int multiplication(int operand1, int operand2)
     return operand1*operand2;
 }
 
-double division(double operand1, double operand2)
+int division(int operand1, int operand2)
 {
     return operand1/operand2;
 }
@@ -34,7 +34,9 @@ int main1()
     cout << "Multiplication:\n" << multiplication(1,2) << "\n";
     cout << multiplication(35, 12) << "\n";
     cout << multiplication(29, 28) << "\n";
-    cout << "Division:\n" << division(1.0,2.0) << "\n";
-    cout << division(35.0, 12.0) << "\n";
-    cout << division(29.0, 28.0) << "\n";
+    cout << "Division:\n" << division(1,2) << "\n";
+    cout << division(35, 12) << "\n";
+    cout << division(29, 28) << "\n";
+
+    return 0;
 }

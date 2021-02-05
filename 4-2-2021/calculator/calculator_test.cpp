@@ -20,9 +20,9 @@ TEST(CalculatorTest, multiplication) {
 }
 
 TEST(CalculatorTest, division) {
-    EXPECT_EQ(0.5, division(1.0, 2.0));
-    EXPECT_EQ(2.91667, division(35.0, 12.0));
-    EXPECT_EQ(1.03571, division(29.0, 28.0));
+    EXPECT_EQ(0, division(1, 2));
+    EXPECT_EQ(2, division(35, 12));
+    EXPECT_EQ(1, division(29, 28));
 }
 
 int main(int argc, char **argv)
